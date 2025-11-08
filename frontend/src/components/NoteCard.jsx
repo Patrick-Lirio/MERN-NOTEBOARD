@@ -6,7 +6,7 @@ import { Link } from "react-router";
 const NoteCard = ({ note }) => {
   return (
     <Link
-      to={"/note/${note._id"}
+      to={`/note/${note._id}`}
       className="card bg-base-100 hover:shadow-lg transition-all duration-200 border-t-4 border-solid border-[#00FF9D]"
     >
       <div className="card-body">
@@ -16,7 +16,7 @@ const NoteCard = ({ note }) => {
           <span className="text-sm text-base-content/60">
             {formatDate(new Date(note.createdAt))}
           </span>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-">
             <PenSquareIcon className="size-4" />
             <button className="btn btn-ghost btn-xs text-error">
               <Trash2Icon className="size-4" />
