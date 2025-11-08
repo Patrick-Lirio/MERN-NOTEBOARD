@@ -30,7 +30,7 @@ const NoteCard = ({ note, setNotes }) => {
           <span className="text-sm text-base-content/60">
             {formatDate(new Date(note.createdAt))}
           </span>
-          <div className="flex items-center gap-">
+          <div className="flex items-center gap-2">
             <PenSquareIcon className="size-4" />
             <button
               onClick={(e) => handleDelete(e, note._id)}
