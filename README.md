@@ -10,6 +10,10 @@ A simple and clean note-taking application built with the MERN stack (MongoDB, E
 - **Rate Limiting:** The API includes rate-limiting to prevent abuse.
 - **Production Ready:** The server is configured to serve the frontend build files in a production environment, creating a single, cohesive application.
 
+## Visit these hosting sites where I deployed this project
+
+- **Render.com:** https://mern-noteboard-d85h.onrender.com/ 
+
 ## Tech Stack
 
 ### Backend
